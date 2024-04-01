@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    background-color: #363535;
+     
+}
+.menu{
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #b0b0b0;
+    font-size: 11px;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    word-spacing: 2em;   
+}
+
+.box0{
+    border: 1px solid white;
+    position: relative;
+}
+
+.box0img{
+    width: 100%;
+    position:        
+}
+.box0text{
+    position: absolute;
+    padding: 200px 200px 100px 600px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.box1{
+    border: 1px solid white;
+    height: 500px;
+}    
+.box1img{
+        width: 100%;
+        padding-top: 200px;
+        background-color: black;
+        border-top: 10px solid white;
+}
+.box1text{
+    position: absolute;
+    padding: 80px 200px 100px 550px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.box2{
+    border: 1px solid white;
+    background-color: black;
+}    
+.box2img{
+        width: 100%;
+        height: 600px;
+        border-top: 10px solid white;
+        background-color: black;
+}
+
+.box2text{
+    position: absolute;
+    padding: 40px 100px 100px 600px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+
+}
+
+.box3{
+    display: inline-block;
+    border: 10px solid white;
+    height: 600px;
+    width: 755px;
+    /* text-align: center; */
+    
+}    
+.box3img{
+        width: 100%;
+        height: 600px;
+}
+.box3text{
+    position: absolute;
+    padding: 40px 300px 100px 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.Series9{
+    padding-right: 100px;
+    font-size: 20px;
+    color: #ab180e;
+}
+
+.box4{
+    display: inline-block;
+    border: 10px solid white;
+    height: 600px;
+    width: 755px;
+    /* text-align: center; */
+}    
+.box4img{
+        width: 100%;
+        height: 600px;
+}
+.box4text{
+    position: absolute;
+    padding: 30px 400px 100px 250px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.Ultra2{
+    padding-right: 100px;
+    font-size: 20px;
+    color: #d66d38;
+}
+
+.box5{
+    display: inline-block;
+    border: 10px solid white;
+    height: 600px;
+    width: 755px;
+    text-align: center;
+}    
+.box5img{
+        width: 100%;
+        height: 600px;
+}
+.box5text{
+    position: absolute;
+    padding: 40px 300px 100px 200px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.Plus{
+    padding-right: 240px;
+    font-size: 20px;
+    color: #b2a709;
+}
+
+.box6{
+    display: inline-block;
+    border: 10px solid white;
+    height: 600px;
+    width: 755px;
+    /* text-align: center; */
+}    
+.box6img{
+        width: 100%;
+        height: 600px;
+}
+.box6text{
+    position: absolute;
+    padding: 40px 900px 100px 150px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    width: 100%;
+}
+.box7{
+    display: inline-block;
+    border: 10px solid white;
+    height: 600px;
+    width: 755px;
+    text-align: center;
+}    
+.box7img{
+        width: 100%;
+        height: 600px;
+}
+.box7text{
+    position: absolute;
+    padding: 30px 400px 100px 180px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.box8{
+    display: inline-block;
+    border: 10px solid white;
+    height: 600px;
+    width: 755px;
+    text-align: center;
+}    
+.box8img{
+        width: 100%;
+        height: 600px;
+}
+.box8text{
+    position: absolute;
+    padding: 30px 900px 100px 180px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    width: 100%;
+}
+
+.lastbox{
+    border: 10px solid white;
+    padding: 20px 300px 20px 300px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    line-height: 1.33;
+    background-color: rgb(245, 245, 247);
+    color: rgba(0, 0, 0, 0.56);
+        
+}

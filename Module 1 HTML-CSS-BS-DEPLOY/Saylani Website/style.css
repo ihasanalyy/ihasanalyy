@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border-bottom: 1px solid #e6e6e6ff;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+}
+
+.logo{
+    /* border: 1px solid red; */
+    width: 200px;
+    position: relative;
+    left: 110px;
+    top: 10px;
+      
+}
+
+.logoimage{
+    width: 100%;
+    
+}
+
+.menubar{
+    /* border: 1px solid blue; */
+    position: relative;
+    left: 350px;
+    bottom: 25px;
+    width: 800px;
+    text-align: center;
+    word-spacing: 1.5em;
+    
+    
+    
+}
+
+.home{
+    /* border: 1px solid peru; */
+    display: inline-block;   
+}
+.home a{
+    text-decoration: none;
+    color: black;
+}
+.home a :hover{
+    border-bottom: 1px solid #8fc740ff;
+    cursor: pointer;
+}
+
+.donatebt{
+    /* border: 1px solid olive; */
+    width: 150px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    left: 1150px;
+    
+}
+.sponsorbt{
+    /* border: 1px solid orange; */
+    width: 150px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    left: 1150px;
+}
+
+.donatebt button{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #0d6eb8ff;
+    border-radius: 5px;
+    color: white;
+}
+
+.sponsorbt button{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #8fc740ff;
+    border-radius: 5px;
+    color: white;  
+}
+/* hover add karna hai buttons mey */
+
+.panel{
+    /* border: 1px solid black; */
+    margin-top: 80px;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    display: inline-block; 
+}
+.panel img{
+    width: 100%;
+    height: 100%;
+}
+.context{
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 200px;
+    margin-top: 300px;
+    margin-left: 110px; 
+    position: relative;
+    display: inline-block;
+    line-height: 1.5em;
+}
+.sidebanner{
+    /* border: 1px solid brown; */
+    display: inline-block;
+    height: 550px;
+    width: 550px;
+    margin-left: 900px;
+    margin-top: -350px;
+    position: relative;
+}
+.imgbanner{
+    height: 100%;
+    width: 100%;
+}
+.context h1,h4{
+    text-align: left;
+    color: #262626ff;
+    font-weight: bold;
+    line-height: 1em;
+}
+.green{
+    color: #8fc740ff;
+}
+.explorebtn{
+    border: 1px black;
+    width: 150px;
+    height: 35px;
+    display: inline-block;
+    position: relative;
+    margin-left: 110px;
+    margin-top: -350px;
+    /* margin-bottom: 500px;  */
+    
+}
+.explorebtn button{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;  
+}
+.dtable{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 1300px;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 140px;
+    padding-top: 10px;
+    background-color: #f0fcdcff;
+}
+.genbtn{
+    border: 1px solid orange;
+    height: 60px;
+    width: 300px;
+    display: inline-block;
+    /* margin-top: 20px; */
+
+}
+.genbtn .sub{
+    /* border: 1px solid rgb(14, 222, 18); */
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+.bloodbtn{
+    /* border: 1px solid brown; */
+    height: 60px;
+    width: 250px;
+    display: inline-block;
+    text-align: center;
+}
+.familybtn{
+    /* border: 1px solid blue; */
+    height: 60px;
+    width: 150px;
+    display: inline-block;
+}
+.Medicalbtn{
+    /* border: 1px solid purple; */
+    height: 60px;
+    width: 100px;
+    display: inline-block;
+}
+.foodbtn{
+    /* border: 1px solid hotpink; */
+    margin-top: 50px;
+    height: 60px;
+    width: 70px;
+    display: inline-block;
+}
+.quickbtn{
+    /* border: 1px solid red; */
+    height: 60px;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+}
+.bloodbtn button{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.familybtn button{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.Medicalbtn button{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.foodbtn button{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+}
+.quickbtn button{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    background-color: #8fc740ff;
+    border-radius: 5px;
+    border: 0px;
+}
+.imagebanner{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 1300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.imagebanner img{
+    width: 100%;
+    height: 100%;
+}
+.maintable{
+    /* border: 1px solid black; */
+    width: 1300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 50px 20px 30px 40px;
+    
+}
+.box1{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: #f0fcdcff;
+    border-radius: 15px;
+} 
+.box1 img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.box2{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: #f0fcdcff;
+    border-radius: 15px;
+}
+.box2 img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.box3{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: #f0fcdcff;
+    border-radius: 15px;
+}
+.box3 img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.box4{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: #f0fcdcff;
+    border-radius: 15px;
+}
+.box4 img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.box5{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: #f0fcdcff;
+    border-radius: 15px;
+}
+.box5 img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.box6{
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    background-color: #f0fcdcff;
+    border-radius: 15px;
+}
+.box6 img{
+    width: 25%;
+    height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.maintable .para1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+}
+.maintable h1{
+    text-align: center;
+}
+.main3{
+    border: 1px solid black;
+    width: 1300px;
+    height: 300px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+.Big1{
+    border: 1px solid black;
+    height: 300px;
+    width: 420px;
+    display: inline-block;
+}
+.Big2{
+    border: 1px solid black;
+    height: 300px;
+    width: 420px;
+    display: inline-block;
+}
+.Big3{
+    border: 1px solid black;
+    height: 300px;
+    width: 420px;
+    display: inline-block;
+    
+}
+.main3 .bigimg{
+    height: 100%;
+    width: 100%;
+}

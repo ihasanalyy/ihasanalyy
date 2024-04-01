@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginForm {
+    width: 50%;
+    padding: 50px 0;
+    margin: 0 auto;
+  }
+  
+  .fieldset {
+    padding: 20px 30px;
+    color: white;
+  }
+  .fieldContainer {
+    margin-top: 20px;
+    color: white;
+  }
+  .fieldContainer label {
+    display: block;
+  }
+  .fieldContainer input {
+    width: 100%;
+    outline: none;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: lightgray;
+  }
+  .fieldbut {
+    width: 100%;
+    padding: 8px;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .fieldset legend {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .parent {
+    background-color: black;
+    height: 118vh;
+  }

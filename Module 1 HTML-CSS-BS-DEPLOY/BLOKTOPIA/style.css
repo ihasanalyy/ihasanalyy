@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.customclassmain{
+    background-color: black;
+}
+.customclasslogo{
+    background-color: black;
+    width: 100%;
+}
+.customclassnavbar{
+    margin-left: 20%;
+    background-color: black;
+    color: white;
+}
+.customclassbtn{
+    background-color: #ed00c2ff;
+    color: white;
+    width: 20%;
+}
+.customclasstoggler{
+    background-color: #ed00c2ff;
+}
+.btn :hover{
+    color: white;
+}
+.customclass2024{
+    color: #ed00c2ff;
+    font-weight: bold;
+    font-size: 80px;
+}
+.customclassroad{
+    font-weight: bold;
+    font-size: 80px;
+}
+.customclassfindbtn{
+    background-color: #171717ff;
+    color: #ed00c2ff;
+    border-color: #ed00c2ff;
+}
+.customclassfindbtn button :hover {
+    background-color: #ed00c2ff !important;
+    color: white !important;
+}
+.btn1{
+    top: 70%;
+    left: 40%;
+    width: 25%;
+    background-color: #171717ff;
+    color: #ed00c2ff;
+    border-color: #ed00c2ff;
+    border-radius: 10px;
+}
+.btn1 :hover {
+    background-color: #ed00c2ff;
+    color: white;
+}
+.para1{
+    top: 20%;
+    left: 20%;
+    right: 20%;
+    
+}
+.para2{
+    top: 35%;
+    left: 20%;
+    right: 20%;
+}
+.customclass2{
+    height: 350px
+    
+}
+.customclass5{
+    background-color: #171717ff;
+    width: 35%;
+}
+.customclass6{
+    color: #ed00c2ff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.customclass8{
+    background-color: #171717ff;
+    font-size: small;
+}
+.customclass9{
+    background-color: #171717ff;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.customclassbtnsvg{
+    width: 55px;
+    height: 30px;
+    background-color: #171717ff;
+}
+.bgcustom{
+    background-color: #171717ff;
+}

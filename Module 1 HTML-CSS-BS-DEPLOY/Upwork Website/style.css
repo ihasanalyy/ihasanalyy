@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif;
+    font-weight: 300; */
+}
+/* -------------------NAVIGATION BAR STYLING------------------------- */
+.head{
+    border-bottom: 1px solid #d5e0d5ff;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.subhead1{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.subhead2{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sub1child1{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 100px;
+}
+.sub1child2{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sub2child1{
+    /* border: 1px solid black; */
+    height: 30px;
+    width: 300px;
+}
+.sub2child2{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 150px;
+    display: flex;
+}
+.sub2child1 input{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    border: 1px solid #d5e0d5ff;
+}
+.sub2child2 .login{
+    height: 100%;
+    width: 75px;
+    border-radius: 15px;
+    border: 0px;
+}
+.sub2child2 .sign{
+    height: 100%;
+    width: 75px;
+    border-radius: 15px;
+    background-color: #108a00ff;
+    color: white;
+    border: 0px;
+}
+.sub1child1 img{
+    height: 100%;
+    width: 100%;
+}
+
+/* -------------------MENU BAR STYLING------------------------- */
+
+.menubar{
+    /* border: 1px solid black; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+   
+}
+.childmenu{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* <!------------------------- BODY ////// CONTENT STYLING --------------------------> */
+
+.main{
+    /* border: 1px solid black; */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.main1{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 40%;
+    display: flex;
+    flex-direction: column
+    
+    
+}
+.main2{
+    /* border: 1px solid black; */
+    height: 400px;
+    width: 40%;
+}
+.main2 img{
+    height: 100%;
+    width: 100%;
+}
+.submain1{
+    /* border: 1px solid red; */
+    height: 200px;
+    width:  80%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #108a00ff;
+}
+.submain2{
+    /* border: 1px solid blue; */
+    height: 100px;
+    width:  80%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #5f6e56ff;
+}
+.submain3{
+    /* border: 1px solid black; */
+    height: 50px;
+    width:  25%;
+    
+}
+.submain3 button{
+    width: 100%;
+    height: 100%;
+    background-color: #108a00ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 0px;
+}
+
+/* ------------------LOGO BANNER--------------------------- */
+.banner{
+    /* border: 1px solid black; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subbanner{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 90%;
+    line-height: 2em;
+    color: #5f6e56ff;
+}
+
+/* ---------------IMAGE BANNER--------------------------- */
+
+.joinbanner{
+    /* border: 1px solid black; */
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subjoin{
+    /* border: 1px solid red; */
+    height: 400px;
+    width: 30%;
+}
+.subjoin img{
+    height: 100%;
+    width: 100%;
+}
+.sub2join{
+    /* border: 1px solid purple; */
+    height: 400px;
+    width: 50%;
+    font-size: 20px;
+    line-height: 2em;
+    text-align: left; 
+}
+.btns{
+    /* border: 1px solid black; */
+    height: 40px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.btns .sign{
+    width: 45%;
+    border-radius: 15px;
+    background-color: #108a00ff;
+    color: white;
+    border: 0px;
+}
+.btns .learn{
+    width: 45%;
+    border-radius: 15px;
+    color: #108a00ff;
+    background-color: white;
+    border: 1px solid #108a00ff;
+}
+
+/* -----------------------TALENT--------------------- */
+
+.main3{
+    /* border: 1px solid black; */
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.talent1{
+    /* border: 1px solid red; */
+    height: 100px;
+    width: 90%;
+    color: #5f6e56ff;
+}
+.talent1 h1{
+    font-size: 50px;
+    color: black;
+}
+.talent2{
+    /* border: 1px solid green; */
+    height: 200px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.talent2boxes{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 24%;
+    background-color: #f7faf7ff;
+    border-radius: 5px;
+    line-height: 3.5em;
+}
+.talent3{
+    /* border: 1px solid blue; */
+    height: 200px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.talent3boxes{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 24%;
+    background-color: #f7faf7ff;
+    border-radius: 5px;
+    line-height: 3.5em;
+}
+
+/* -----------------COMPANY BANNER--------------------- */
+
+.main4{
+    /* border: 1px solid black; */
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.banner1{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 60%;
+    border-radius: 5px;
+    font-size: 30px;
+    line-height: 1.8em;
+    text-align: start;
+    background-color: #13544eff;
+    color: white;
+}
+.banner1 .white{
+    color: #91e6b3ff;
+}
+.LM button{
+    height: 50px;
+    width: 20%;
+    border-radius: 20px;
+    border: 0px;
+}
+.banner2{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 30%;
+    border-radius: 5px;
+}
+.banner2 img{
+    height: 100%;
+    width: 100%;
+}
+
+/* -------------JOB BANNER_______________ */
+
+.main5{
+    /* border: 1px solid black; */
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub1main5{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 90%;
+    position: absolute;
+    border-radius: 15px;
+    /* display: flex;
+    justify-content: center;
+    align-items: end; */
+}
+.btn3{
+    /* border: 1px solid black; */
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.g1{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 30%;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color: #108a00ff;
+    border-radius: 10px;
+}
+.side{
+    /* border: 1px solid black; */
+    height: 300px;
+    width: 35%;
+    font-size: 25px;
+    line-height: 1.5em;
+    position: relative;
+    color: white;
+}
+.side h1{
+    font-size: 70px;
+    line-height: 1em;
+    
+}
+.sub1main5 img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* -----------WORK BANNER________________ */
+
+.main6{
+    /* border: 1px solid black; */
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 45%;
+}
+.left img{
+    height: 100%;
+    width: 100%;
+}
+.right{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 45%;
+    background-color: #1f55c2ff;
+}
+.subright{
+    /* border: 1px solid black; */
+    border-bottom: 1px solid white;
+    height: 300px;
+    width: 90%;
+    margin-left: 5% ;
+    margin-right: 5% ;
+    font-size: 20px;
+    background-color: #1f55c2ff;
+    color: white;
+}
+.subright h1{
+    font-size: 70px;
+}
+.niche{
+    /* border: 1px solid black; */
+    height: 100px;
+    width: 90%;
+    margin-left: 5% ;
+    margin-right: 5% ;
+    display: flex;
+    align-items: center;
+}
+.three{
+    /* border: 1px solid black; */
+    height: 80px;
+    width: 34%;
+    font-size: 20px;
+    background-color: #1f55c2ff;
+    color: white;
+}
+.findbtn{
+    /* border: 1px solid black; */
+    height: 50px;
+    width: 30%;
+    margin-left: 5% ;
+    margin-right: 5% ;
+    display: flex;
+}
+.findbtn button{
+    height: 100%;
+    width: 100%;
+    color: #1f55c2ff;
+    background-color: white;
+    border-radius: 20px;
+    border: 0px;
+}
+
+/* ---------------PALESTINE BANNER+++++++++++++++++ */
+
+.main7{
+    /* border: 1px solid black; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submain7{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 70%;
+    font-size: 20px;
+    padding-top: 10px;
+    background-color: #f7faf7ff
+}
+.submain7 h1{
+    font-size: 50px;
+}
+.submainsmall{
+    /* border: 1px solid black; */
+    height: 150px;
+    width: 20%;
+}
+.submainsmall img{
+    width: 100%;
+    height: 100%;
+}
+.CM button{
+    height: 40px;
+    width: 20%;
+    border-radius: 20px;
+    border: 1px solid #14a800ff;
+    color: #14a800ff;
+}

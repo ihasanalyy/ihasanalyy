@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Foam</title>
+</head>
+<body>
+    <table align="center">
+        <th bgcolor="lightgreen" >
+            Step 1: Account
+        </th>
+        <th bgcolor="lightgreen">
+            Step 2: Personal Details
+        </th>
+        <th bgcolor="sktblue">
+            Step 3: Your Review
+        </th>
+    </table>
+    <form>
+        <fieldset>
+            <legend>Your Review:</legend>
+            <label><p>How did you hear about us?
+                <select name="social network">
+                <option value="twitter">twitter</option>
+                <option value="facebook">facebook</option>
+                <option value="instagram">instagram</option>
+                <option value="any other social network">any other social network</option>
+                </select>
+            </p></label>
+            <label><p>Would you visit again?
+                <input type="radio" value="Yes" name="visit">Yes
+                <input type="radio" value="No" name="visit">No
+                <input type="radio" value="Maybe" name="visit">Maybe
+            </p></label>
+            <label><p>Comments:</p>
+            <textarea placeholder="Enter your comments here..." name="comments" rows="8" cols="40" ></textarea>
+            </label>
+            <label><p>Documents:</p>
+                <input type="file" name="Documents">
+            </label>
+            <label><p>
+                <input type="checkbox" value="email updates" name="email updates" checked>Sign me up for email upadates
+            </p></label>
+            <a href="./step2.html">
+            <img src="./Images/back.png" width="150" height="50"> </a>
+            <form action=""><input type="image" src="./Images/submit.png" width="150" height="50">
+            </form>
+        </fieldset>
+    </form>
+</body>
+</html>

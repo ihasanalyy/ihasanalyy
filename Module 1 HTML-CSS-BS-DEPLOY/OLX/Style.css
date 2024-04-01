@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.customclassmain{
+    width: 95%;
+}
+.customclassolx{
+    color: #3b79ffff;
+}
+
+.customclassolxblack{
+    font-size: 30px;
+}
+.customclassinput{
+    width: 300px;
+}
+.customclasssearch{
+    width: 700px;
+}
+.custombanner1{
+    /* border: 1px solid black; */
+    height: 180px;
+}
+.custombanner1 img{
+    width: 100%;
+    height: 100%;
+}
+.customclasscards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: start;
+}
+.card img{
+    width: 5rem;
+    
+}
+.card{
+    border: none;
+}
