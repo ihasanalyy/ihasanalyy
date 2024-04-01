@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yelp</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Header  -->
+  
+  <div class="parHead">
+
+    <!-- Main Nav div -->
+
+    <div class="mainNav mt-3">
+      <nav class="mx-5 navbar navbar-expand-lg" style="z-index: 99999">
+        <div class="container-fluid">
+          <img src="./logo_desktop_white.svg" alt="logo" />
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-flex  ms-5  w-50">
+            <input class="form-control border-0 rounded-0  " type="search"
+              placeholder="Things to do, Nail Salons, Plumber" aria-label="Search">
+            <input class="form-control rounded-0  " type="search" placeholder="San Fransisco, CA" aria-label="Search">
+            <div class="searchBar w-auto bg-danger "><i class="fa-solid fa-magnifying-glass mx-3 my-3 text-white"></i>
+            </div>
+          </div>
+
+          <div class=" ms-5 collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white">Write a Review</a>
+              </li>
+            </ul>
+            <form class="d-flex gap-3" role="search">
+              <button class="btn btn-outline-light rounded-1" type="submit">
+                Log In
+              </button>
+              <button class="btn btn-danger rounded-1" type="submit">
+                Sign Up
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Sub Nav div -->
+
+      <div class="subNav ">
+        <nav class="subNav ms-5 navbar navbar-expand-lg  " style="z-index: 99999">
+          <div class="collapse navbar-collapse mx-5 " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-5 mb-2 mb-lg-0 ">
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white ms-5" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Restaurants
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item " href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Home Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item " href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Auto Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item " href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white " href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item " href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+        </nav>
+      </div>
+      <!-- Carousel Section div  -->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade"
+        style=" top: 0; left: 0; width: 100%; height: 100%">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="header-img">
+              <img src="images/1.jpg" alt="header" class="img-fluid" />
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="header-img">
+              <img src="images/2.jpg" alt="header" class="img-fluid" />
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="header-img">
+              <img src="images/3.jpg" alt="header" class="img-fluid" />
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="header-img">
+              <img src="images/o.jpg" alt="header" class="img-fluid" />
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-- Section A  -->
+  <div class=" mx-auto w-25 recActivity my-5 ">
+    <h1 class=" fs-1 fw-bold">Recent Activity</h1>
+  </div>
+
+  <div class="mx-auto container gap-5 d-flex ">
+    <div class="card ms-2" style="width: 340px; ">
+      <div class="d-flex gap-3 ms-2 mt-2  ">
+        <img src="profile/anime (1).jpg" alt="" class=" rounded-5 object-fit-contain ">
+        <div class=" row-gap-0">
+          <span class="card-title fw-bold mt-5 ">Kirsten P. wrote a review</span>
+          <span class="card-text d-inline-block">6 minutes ago</span>
+        </div>
+      </div>
+
+      <img src="post/l.jpg" class="card-img-top mt-2 object-fit-cover" style="height: 150px;" alt="...">
+      <h4 class="container fw-bold mt-2 text text-decoration-underline">Alcohol Bar</h4>
+      <p class="container mt-2">Nice place to pick up a meal and a yummy dessert. chicken roasting in front Nice place to pick up a meal and a yummy dessert....</p>
+      <a href="#" class="text-decoration-none container">Read more</a>
+      <hr>
+      <div class="card-body ">
+
+      </div>
+    </div>
+    <div class="card ms-2" style="width: 340px; ">
+      <div class="d-flex gap-3 ms-2 mt-2  ">
+        <img src="profile/60s.jpg" alt="" class=" rounded-5 object-fit-contain ">
+        <div class=" row-gap-0">
+          <span class="card-title fw-bold mt-5 ">Kirsten P. wrote a review</span>
+          <span class="card-text d-inline-block">6 minutes ago</span>
+        </div>
+      </div>
+
+      <img src="post/l (1).jpg" class="card-img-top mt-2 object-fit-cover" style="height: 150px;" alt="...">
+      <h4 class="container fw-bold mt-2 text text-decoration-underline">Pure Relax</h4>
+      <p class="container mt-2">This relaxing place is very helpful as the service and the ambience is quite delightful.
+        The...</p>
+      <a href="#" class="text-decoration-none container">Read more</a>
+      <hr>
+      <div class="card-body ">
+
+      </div>
+    </div>
+    <div class="card ms-2" style="width: 340px; ">
+      <div class="d-flex gap-3 ms-2 mt-2  ">
+        <img src="profile/eye.jpg" alt="" class=" rounded-5 object-fit-contain ">
+        <div class=" row-gap-0">
+          <span class="card-title fw-bold mt-5 ">Kirsten P. wrote a review</span>
+          <span class="card-text d-inline-block">6 minutes ago</span>
+        </div>
+      </div>
+
+      <img src="post/p.jpg" class="card-img-top mt-2 object-fit-cover" style="height: 150px;" alt="...">
+      <h4 class="container fw-bold mt-2 text text-decoration-underline">Sea Water</h4>
+      <p class="container mt-2">This relaxing place is very helpful as the service and the ambience is quite delightful.
+        The...</p>
+      <a href="#" class="text-decoration-none container">Read more</a>
+      <hr>
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Mid Cards -->
+
+  <div class="container-fluid container gap-5 d-flex ms-auto me-auto mt-5">
+    <div class="card ms-2" style="width: 340px; ">
+      <div class="d-flex gap-3 ms-2 mt-2  ">
+        <img src="profile/4.jpg" alt="" class=" rounded-5 object-fit-contain ">
+        <div class=" row-gap-0">
+          <span class="card-title fw-bold mt-5 ">Kirsten P. wrote a review</span>
+          <span class="card-text d-inline-block">6 minutes ago</span>
+        </div>
+      </div>
+
+      <img src="post/cake.jpg" class="card-img-top mt-2 object-fit-cover" style="height: 150px;" alt="...">
+      <h4 class="container fw-bold mt-2 text text-decoration-underline">Ice Cream</h4>
+      <p class="container mt-2">Nice place to pick up a meal and a yummy dessert. chicken roasting in front Nice place to pick up a meal and a yummy dessert....</p>
+      <a href="#" class="text-decoration-none container">Read more</a>
+      <hr>
+      <div class="card-body p-4">
+
+      </div>
+    </div>
+    <div class="card ms-2" style="width: 340px; ">
+      <div class="d-flex gap-3 ms-2 mt-2  ">
+        <img src="profile/5.jpg" alt="" class=" rounded-5 object-fit-contain ">
+        <div class=" row-gap-0">
+          <span class="card-title fw-bold mt-5 ">Kirsten P. wrote a review</span>
+          <span class="card-text d-inline-block">6 minutes ago</span>
+        </div>
+      </div>
+
+      <img src="post/cream.jpg" class="card-img-top mt-2 object-fit-cover" style="height: 150px;" alt="...">
+      <h4 class="container fw-bold mt-2 text text-decoration-underline">Gola Ganda</h4>
+      <p class="container mt-2">This relaxing place is very helpful as the service and the ambience is quite delightful.
+        The...</p>
+      <a href="#" class="text-decoration-none container">Read more</a>
+      <hr>
+      <div class="card-body p-4">
+
+      </div>
+    </div>
+    <div class="card ms-2" style="width: 340px; ">
+      <div class="d-flex gap-3 ms-2 mt-2  ">
+        <img src="profile/anime (1).jpg" alt="" class=" rounded-5 object-fit-contain ">
+        <div class=" row-gap-0">
+          <span class="card-title fw-bold mt-5 ">Kirsten P. wrote a review</span>
+          <span class="card-text d-inline-block">6 minutes ago</span>
+        </div>
+      </div>
+
+      <img src="post/lce.jpg" class="card-img-top mt-2 object-fit-cover" style="height: 150px;" alt="...">
+      <h4 class="container fw-bold mt-2 text text-decoration-underline">Cream</h4>
+      <p class="container mt-2">This relaxing place is very helpful as the service and the ambience is quite delightful.
+        The...</p>
+      <a href="#" class="text-decoration-none container">Read more</a>
+      <hr>
+      <div class="card-body p-4">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Ordinary Cards -->
+
+   
+   <div class="container-fluid container gap-5 d-flex ms-auto me-auto mt-5">
+    <div class="card ms-2" style="width: 340px; ">
+      <div class="d-flex gap-3 ms-2 mt-2  ">
+        <img src="profile/4.jpg" alt="" class=" rounded-5 object-fit-contain ">
+        <div class=" row-gap-0">
+          <span class="card-title fw-bold mt-5 ">Kirsten P. wrote a review</span>
+          <span class="card-text d-inline-block">6 minutes ago</span>
+        </div>
+      </div>
+
+      <img src="post/restaurant.jpg" class="card-img-top mt-2 object-fit-cover" style="height: 150px;" alt="...">
+      <h4 class="container fw-bold mt-2 text text-decoration-underline">Pure Relax</h4>
+      <p class="container mt-2">Nice place to pick up a meal and a yummy dessert. chicken roasting in front Nice place to pick up a meal and a yummy dessert....</p>
+      <a href="#" class="text-decoration-none container">Read more</a>
+      <hr>
+      <div class="card-body p-4">
+
+      </div>
+    </div>
+    <div class="card ms-2" style="width: 340px; ">
+      <div class="d-flex gap-3 ms-2 mt-2  ">
+        <img src="profile/5.jpg" alt="" class=" rounded-5 object-fit-contain ">
+        <div class=" row-gap-0">
+          <span class="card-title fw-bold mt-5 ">Kirsten P. wrote a review</span>
+          <span class="card-text d-inline-block">6 minutes ago</span>
+        </div>
+      </div>
+
+      <img src="post/sallad.jpg" class="card-img-top mt-2 object-fit-cover" style="height: 150px;" alt="...">
+      <h4 class="container fw-bold mt-2 text text-decoration-underline">Little Aloha</h4>
+      <p class="container mt-2">This relaxing place is very helpful as the service and the ambience is quite delightful.
+        The...</p>
+      <a href="#" class="text-decoration-none container">Read more</a>
+      <hr>
+      <div class="card-body p-4">
+
+      </div>
+    </div>
+    <div class="card ms-2" style="width: 340px; ">
+      <div class="d-flex gap-3 ms-2 mt-2  ">
+        <img src="profile/anime (1).jpg" alt="" class=" rounded-5 object-fit-contain ">
+        <div class=" row-gap-0">
+          <span class="card-title fw-bold mt-5 ">Kirsten P. wrote a review</span>
+          <span class="card-text d-inline-block">6 minutes ago</span>
+        </div>
+      </div>
+
+      <img src="post/food.jpg" class="card-img-top mt-2 object-fit-cover" style="height: 150px;" alt="...">
+      <h4 class="container fw-bold mt-2 text text-decoration-underline">Teeth Baking Company</h4>
+      <p class="container mt-2">This relaxing place is very helpful as the service and the ambience is quite delightful.
+        The...</p>
+      <a href="#" class="text-decoration-none container">Read more</a>
+      <hr>
+      <div class="card-body p-4">
+
+      </div>
+    </div>
+  </div> 
+  <!-- Section B  -->
+ <div class=" mx-auto w-25 recActivity my-5 ">
+    <h1 class=" fs-1 fw-bold">Categories</h1>
+  </div>
+
+  <div class="catSymbol container-fluid container d-flex gap-5 mx-auto ">
+    <div class="">
+      <div class="card" style="width: 250px; height: 183px;">
+        <img src="./symbol/spoon fog.svg" class="card-img-top w-25 mx-auto  mt-auto" style="height: 40px; width: 40px;"
+          alt="...">
+        <h5 class="mx-auto mb-auto">Restaurants</h5>
+      </div>
+    </div>
+
+
+
+    <div class="">
+      <div class="card" style="width: 250px; height: 183px;">
+        <img src="./symbol/gift.svg" class="card-img-top w-25 mx-auto  mt-auto" style="height: 40px; width: 40px;"
+          alt="...">
+        <h5 class="mx-auto mb-auto">Shopping</h5>
+      </div>
+    </div>
+
+
+    <div class="">
+      <div class="card" style="width: 250px; height: 183px;">
+        <img src="./symbol/star.svg" class="card-img-top w-25 mx-auto  mt-auto" style="height: 40px; width: 40px;"
+          alt="...">
+        <h5 class="mx-auto mb-auto">Nightlife</h5>
+      </div>
+    </div>
+
+
+
+    <div class="">
+      <div class="card" style="width: 250px; height: 183px;">
+        <img src="./symbol/teer.svg" class="card-img-top w-25 mx-auto  mt-auto" style="height: 40px; width: 40px;"
+          alt="...">
+        <h5 class="mx-auto mb-auto">Actlife</h5>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="catSymbol container-fluid container d-flex gap-5 mx-auto  my-5">
+    <div class="">
+      <div class="card" style="width: 250px; height: 183px;">
+        <img src="./symbol/beauty spas.svg" class="card-img-top w-25 mx-auto  mt-auto"
+          style="height: 40px; width: 40px;" alt="...">
+        <h5 class="mx-auto mb-auto">beauty & Spas</h5>
+      </div>
+    </div>
+
+
+
+    <div class="">
+      <div class="card" style="width: 250px; height: 183px;">
+        <img src="./symbol/car.svg" class="card-img-top w-25 mx-auto  mt-auto" style="height: 40px; width: 40px;"
+          alt="...">
+        <h5 class="mx-auto mb-auto">Automotive</h5>
+      </div>
+    </div>
+
+
+    <div class="">
+      <div class="card" style="width: 250px; height: 183px;">
+        <img src="./symbol/home.svg" class="card-img-top w-25 mx-auto  mt-auto" style="height: 40px; width: 40px;"
+          alt="...">
+        <h5 class="mx-auto mb-auto">Home Service</h5>
+      </div>
+    </div>
+
+
+
+    <div class="">
+      <div class="card" style="width: 250px; height: 183px;">
+        <img src="./symbol/more.svg" class="card-img-top w-25 mx-auto  mt-auto" style="height: 40px; width: 40px;"
+          alt="...">
+        <h5 class="mx-auto mb-auto">More</h5>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Section footer  -->
+
+  <Footer class="bg-body-secondary p-1">
+    <div class="list container container-fluid  d-flex ">
+      <div class="mt-5 mx-auto">
+        <h4>About</h4>
+        <ul class="list-unstyled">
+          <li class="">About Yelp</li>
+          <li class="">Careers</li>
+          <li class="">Press</li>
+          <li class="">Investor Relations</li>
+          <li class="">Trust & Safety</li>
+          <li class="">Content Guidelines</li>
+          <li class="">Accessibility Statement</li>
+          <li class="">Terms of Service</li>
+          <li class="">Privacy Policy</li>
+          <li class="">Ad Choices</li>
+          <li class="">Your Privacy Choices</li>
+        </ul>
+      </div>
+      <div class="mt-5 mx-auto">
+        <h4>Discover</h4>
+        <ul class="list-unstyled">
+          <li class="">Yelp Project Cost Guides</li>
+          <li class="">Collections</li>
+          <li class="">Talk</li>
+          <li class="">Events</li>
+          <li class="">Yelp Blog</li>
+          <li class="">Support</li>
+          <li class="">Yelp Mobile</li>
+          <li class="">Developers</li>
+          <li class="">RSS</li>
+        </ul>
+      </div>
+      <div class="mt-5 mx-auto">
+        <h4>Yelp for Business</h4>
+        <ul class="list-unstyled">
+          <li class="">Yelp for Business</li>
+          <li class="">Business Owner Login</li>
+          <li class="">Claim your Business Page</li>
+          <li class="">Advertise on Yelp</li>
+          <li class="">Yelp for Restaurant Owners</li>
+          <li class="">Table Management</li>
+          <li class="">Business Success Stories</li>
+          <li class="">Business Support</li>
+          <li class="">Yelp Blog for Business</li>
+        </ul>
+      </div>
+      <div class="mt-5 mx-auto">
+        <h4>Languages</h4>
+        <ul class="list-unstyled">
+          <li class="">English</li>
+          <li class="">Business Owner Login</li>
+        </ul>
+        <h4>Cities</h4>
+        <ul class="list-unstyled">
+          <li>Explore a City</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footerPar ">
+      <p class=" container fs-6">Copyright © 2004–2024 Yelp Inc. Yelp,<img src="./footer/logo_desktop.svg" alt=""
+          class="p-0 m-0 p-1" style="width: 60px; height: 35px;">,<img src="./footer/burst_red.svg" alt=""
+          class="p-1 m-0 gap-0">burst and related marks are registered trademarks of Yelp.</p>
+    </div>
+  </Footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+  integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+  integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+
+</html>
