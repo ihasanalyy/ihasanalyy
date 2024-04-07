@@ -58,3 +58,23 @@
 // } if(flag == false){
 //     console.log(userInput + " not available")
 // }
+
+
+// var university = "University of Karachi"
+// // console.log(university)
+// var karachi = university.split("")
+// // console.log(karachi)
+// for(var i = 0; i < karachi.length; i++){
+// console.log(karachi[i])
+// }
+
+
+// var userInput = "Pakistan"
+//  last = userInput.charAt(userInput.length-1)
+//  console.log(last)
+
+
+// var sting = "The quick brown fox jumps over the lazy dog".toLowerCase()
+// count = sting.match(/the/g)
+// console.log(count)
+
