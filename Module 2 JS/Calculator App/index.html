@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg">
+
+    <h1 class="heading">CALCULATOR</h1>
+<div class="container  parentCal">
+    <div class="inputDisplay">
+    <input class="" type="text" disabled id="inputField" value="">
+    </div>
+    <table class="w-50 text-center  table">
+        <tr>
+            <td onclick="addvalue('+')"><button class="btn optClr">+</button></td>
+            <td onclick="addvalue('-')"><button class="btn optClr">-</button></td>
+            <td onclick="addvalue('/')"><button class="btn optClr">/</button></td>
+            <td onclick="addvalue('*')"><button class="btn optClr">*</button></td>
+        </tr>
+        <tr>
+            <td onclick="addvalue(7)"><button class="btn NumClr">7</button></td>
+            <td onclick="addvalue(8)"><button class="btn NumClr">8</button></td>
+            <td onclick="addvalue(9)"><button class="btn NumClr">9</button></td>
+            <td onclick="result()" rowspan="3"><button class="btn alphaClr">=</button></td>
+        </tr>
+        <tr>
+            <td onclick="addvalue(4)"><button class="btn NumClr">4</button></td>
+            <td onclick="addvalue(5)"><button class="btn NumClr">5</button></td>
+            <td onclick="addvalue(6)"><button class="btn NumClr">6</button></td>
+        </tr>
+        <tr>
+            <td onclick="addvalue(1)"><button class="btn NumClr">1</button></td>
+            <td onclick="addvalue(2)"><button class="btn NumClr">2</button></td>
+            <td onclick="addvalue(3)"><button class="btn NumClr">3</button></td>
+        </tr>
+        <tr>
+            <td onclick="addvalue(0)"><button class="btn NumClr">0</button></td>
+            <td onclick="addvalue('.')"><button class="btn NumClr">.</button></td>
+            <td onclick="singleDelete()"><button class="btn alphaClr">C</button></td>
+            <td onclick="AllClear()"><button class="btn alphaClr">AC</button></td>
+        </tr>
+     
+
+    </table>
+</div>
+
+<script src="app.js"></script>    
+</body>
+</html>

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    margin-top: 80px;
+    text-align: center;
+    font-size: calc(22px);
+}
+.parentCal{
+    background-color: whitesmoke;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+
+}
+.inputDisplay{
+    padding: 3px;
+    
+    
+}
+.inputDisplay input{
+    background-color: lightgreen;
+    color: rgb(0, 0, 0);
+   font-size: calc(50px);
+    border-radius: 5px;
+    width: 100%;
+    height: 180px;
+    text-align: end;
+    padding-top: 90px;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bolder;
+    
+}
+
+.table{
+    width: 100%;
+    
+}
+
+.table tr td{
+    cursor: pointer;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 15px;
+   font-size: calc(25px);
+}
+table tr td:hover{
+    background-color: #6b66666e;
+}
+
+    
+
+.NumClr{
+    color: black;
+}
+.NumClr:hover{
+    color: black;
+    background-color: yellowgreen;
+}
+.optClr{
+    color: #ffbfca;
+}
+.optClr:hover{
+    color: black;
+    background-color: #ffbfca;
+    
+}
+.alphaClr{
+    color: rgb(51, 173, 133);
+}
+.alphaClr:hover{
+    color: white;
+    background-color: #31986B;
+}
+
+
+.bg{
+    background-color: white;
+
+}
