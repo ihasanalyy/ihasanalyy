@@ -200,17 +200,17 @@
 
 // MARKSHEET PROGRAM
 
-var obtainMarks = prompt("Marks Obtain in three subjects")
-    totalMarks = prompt("Enter your total marks")
-    percentage = obtainMarks/totalMarks*100
-    // console.log(percentage)
+// var obtainMarks = prompt("Marks Obtain in three subjects")
+//     totalMarks = prompt("Enter your total marks")
+//     percentage = obtainMarks/totalMarks*100
+//     // console.log(percentage)
 
-    if (percentage ==>80) {
-        console.log("Grade=A-one")
-    } else if (percentage ==>70) {
-        console.log("Grade=A")
-    } else if (percentage ==>60) {
-        console.log("Grade=B")
-    } else(percentage < 60){
-        console.log("Sorry")
-    }
+//     if (percentage <= 80) {
+//         console.log("Grade=A-one")
+//     } else if (percentage ==> 70) {
+//         console.log("Grade=A")
+//     } else if (percentage ==> 60) {
+//         console.log("Grade=B")
+//     } else{
+//         console.log("Sorry")
+//     }

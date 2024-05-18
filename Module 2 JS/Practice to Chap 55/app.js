@@ -42,6 +42,33 @@
 
 
 
+// function bulbon(event) {
+//     // console.log(bulbon,event,'1')
+//     // document.getElementById('imgChange')
+//     if(event == 'on'){
+//         document.getElementById('imgChange').src = "./Image/bulb.on.png"
+//     }else{
+//         document.getElementById('imgChange').src = "./Image/bulb.off.png"
+//     }
+// }
 
 
 
+// function getValue(event){
+//     console.log(event,'event', document.getElementById('para1'))
+    
+// }if (event == 'seemore'){
+//     document.getElementById('para1').value =  document.getElementById('para1').value.slice(0,15)
+
+// }
+
+
+
+
+
+
+
+
+function setValue(event){
+    console.log(event,'event',document.getElementById('para1'))
+    }
