@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Document</title>
+</head>
+
+<body onload="startQuiz()">
+
+    <h1>Quiz App</h1>
+
+    <div class="quizBox">
+        <!-- HEADER -->
+        <div class="mainHeaderDiv">
+            <section class="emailUserName">
+
+                <div>
+                    <span>Name:</span>
+                    <span id="userName">Hassan</span>
+                </div>
+
+                <div>
+                    <span>Email:</span>
+                    <span id="userEmail">hasan@gmail.com</span>
+                </div>
+
+            </section>
+
+            <section>
+
+                <div>
+                    <span>Time:</span>
+                    <span>00:00</span>
+                </div>
+
+            </section>
+        </div>
+
+
+        <!-- QUIZ BODY -->
+
+        <div class="quizBody">
+
+            <div>
+                <h3 id="quizQuestions"></h3>
+            </div>
+
+            <div>
+                <ol id="quizOptions"></ol>
+            </div>
+        </div>
+
+        <!-- QUIZ FOOTER -->
+
+        <div class="footer">
+
+            <div id="counter">
+                <span id="currentPage"></span>/<span id="totalPages"></span>
+            </div>
+
+            <div>
+                <button onclick="nextQues()" id="nextQuesBtn" class="show">Next Question</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="resultContainer hide">
+        result:
+        <div>
+            <p>
+                Right Answers
+            </p>
+            <p id="rightAnswers">
+                <!-- Right ans by JS -->
+            </p>
+        </div>
+
+        <div>
+            <p>
+                Wrong Answers
+            </p>
+            <p id="wrongAnswers">
+                <!-- wrong answers by JS -->
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+<script src="quiz.js"></script>
+
+</html>

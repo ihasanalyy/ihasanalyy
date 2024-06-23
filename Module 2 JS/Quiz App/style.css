@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#parentDiv{
+    
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+}
+#nameDiv{
+    border: 1px solid black;
+    width: 50%;
+    margin: auto;
+}
+#emailDiv{
+    /* border: 1px solid black; */
+    width: 50%;
+    margin: auto;
+}
+#nameDiv input{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding: 10px;
+}
+#emailDiv input{
+    /* border: 1px solid blue; */
+    width: 100%;
+    padding: 10px;
+}
+.hide{
+    visibility: collapse;
+}
+.show{
+    visibility: visible;
+}
+#readyBtnDiv{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}

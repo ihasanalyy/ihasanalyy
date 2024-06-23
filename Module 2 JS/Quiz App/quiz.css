@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quizBox{
+    border: 1px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+.mainHeaderDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.emailUserName{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    align-items: start
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    align-items: center;  
+}
+.show{
+    visibility: visible;
+}
+.hide{
+    visibility: hidden;
+}
