@@ -126,7 +126,8 @@ var nextQuesBtn = document.getElementById("nextQuesBtn")
 var resultContainer = document.getElementsByClassName("resultContainer")[0]
 var rightAnswers = document.getElementById("rightAnswers")
 var wrongAnswers = document.getElementById("wrongAnswers")
-
+var rightAnsCount = 0
+var wrongAnsCount = 0
 
 function nextQues() {
     //  console.log("next")
@@ -134,24 +135,41 @@ function nextQues() {
         indexNum++
         currentPage.innerHTML++
         // console.log("indexNum")
-        // nextQuesBtn.className = "hide"
+        nextQuesBtn.className = "hide"
         startQuiz()
-    } else {
-        // console.log("show")
-        // quizBox.style.display = "none"
+    } else if (indexNum === questions.length - 1) {
+        console.log("show")
+        //  quizBox.style.visibility = "hidden"
+        quizBox.style.display = "none"
+        resultContainer.className = "show"
+        rightAnswers.innerHTML = rightAnsCount
+        wrongAnswers.innerHTML = wrongAnsCount
 
     }
 }
 
-function checkAnswers(ele){
-// console.log(ele.innerHTML)
-var liQuizOptions = quizOptions.getElementsByTagName("li")
-var isCheck = liQuizOptions === questions[indexNum].answer
-if(isCheck){
-    rightAnswers++
-    ele.className = "rightAnswers"
-}else{
-    wrongAnswers++
-    ele.className = "wrongAnswers"
+function checkAnswers(ele) {
+    // console.log(ele.innerHTML)
+    var liQuizOptions = quizOptions.getElementsByTagName("li")
+    var isCheck = liQuizOptions === questions[indexNum].answer
+    if (isCheck) {
+        rightAnswers++
+        ele.className = "rightAnswers"
+    } else {
+        wrongAnswers++
+        ele.className = "wrongAnswers"
+    }
+    for (var li in liQuizOptions) {
+        if (li.innerHTML === questions[indexNum].answer) {
+            li.className = "rightAnswers"
+        }
+
+
+    }
 }
+
+for (var li in quizOptions) {
+    // li.style.pointerEvents = "none"
+    // li.style.cursor = "no-drop"
 }
+nextQuesBtn.className = "show"
