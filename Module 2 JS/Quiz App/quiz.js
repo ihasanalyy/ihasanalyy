@@ -92,8 +92,8 @@ var questions = [
 
 var userName = document.getElementById("userName")
 var userEmail = document.getElementById("userEmail")
-localStorage.getItem("name")
-localStorage.getItem("email")
+userName.innerHTML = localStorage.getItem("name")
+userEmail.innerHTML = localStorage.getItem("email")
 var quizQuestions = document.getElementById("quizQuestions")
 var quizOptions = document.getElementById("quizOptions")
 var indexNum = 0
@@ -129,6 +129,7 @@ var wrongAnswers = document.getElementById("wrongAnswers")
 var rightAnsCount = 0
 var wrongAnsCount = 0
 
+
 function nextQues() {
     //  console.log("next")
     if (indexNum < questions.length - 1) {
@@ -137,13 +138,14 @@ function nextQues() {
         // console.log("indexNum")
         nextQuesBtn.className = "hide"
         startQuiz()
-    } else if (indexNum === questions.length - 1) {
+    } else {
         console.log("show")
-        //  quizBox.style.visibility = "hidden"
+        nextQuesBtn.innerHTML = "Result"
         quizBox.style.display = "none"
         resultContainer.className = "show"
         rightAnswers.innerHTML = rightAnsCount
         wrongAnswers.innerHTML = wrongAnsCount
+        
 
     }
 }
@@ -151,25 +153,45 @@ function nextQues() {
 function checkAnswers(ele) {
     // console.log(ele.innerHTML)
     var liQuizOptions = quizOptions.getElementsByTagName("li")
-    var isCheck = liQuizOptions === questions[indexNum].answer
+    var isCheck = ele.innerHTML === questions[indexNum].answer
     if (isCheck) {
-        rightAnswers++
+        rightAnsCount++
         ele.className = "rightAnswers"
+        console.log(rightAnswers)
     } else {
-        wrongAnswers++
+        wrongAnsCount++
         ele.className = "wrongAnswers"
-    }
-    for (var li in liQuizOptions) {
-        if (li.innerHTML === questions[indexNum].answer) {
-            li.className = "rightAnswers"
+        for (var li of liQuizOptions) {
+            if (li.innerHTML === questions[indexNum].answer) {
+                li.className = "rightAnswers"
+            }
         }
-
-
     }
+
+    for (var li of liQuizOptions) {
+        li.style.pointerEvents = "none"
+        li.style.cursor = "no-drop"
+    }
+    nextQuesBtn.className = "show"
+
 }
 
-for (var li in quizOptions) {
-    // li.style.pointerEvents = "none"
-    // li.style.cursor = "no-drop"
-}
-nextQuesBtn.className = "show"
+// function resultfinal() {
+//     resultContainer = `<div>
+//              <p>
+//                 Right Answers
+//             </p>
+//             <p id="rightAnswers">
+//                 ${rightAnsCount}
+//             </p>
+//         </div>
+
+//         <div>
+//             <p>
+//                 Wrong Answers
+//             </p>
+//             <p id="wrongAnswers">
+//                 ${wrongAnsCount}
+//             </p>
+//         </div>`
+// }

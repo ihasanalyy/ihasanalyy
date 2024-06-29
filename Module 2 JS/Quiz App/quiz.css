@@ -2,19 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);; */
 }
 
 #quizBox {
-    border: 1px solid black;
+    /* border: 1px solid black;
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto; */
+    max-width: 800px; /* adjust the max-width to your liking */
+    margin: 40px auto; /* add some margin to center the div */
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #fff; /* add a background color to the quiz box */
+    border: 1px solid #ddd; /* add a border to the quiz box */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a box shadow to the quiz box */
 }
 
 .mainHeaderDiv {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    /* padding: 10px; */
     align-items: center;
+    background-color: #333; /* add a background color to the header */
+    color: #fff; /* add a text color to the header */
+    padding: 10px;
+    text-align: center;
 }
 
 .emailUserName {
@@ -72,11 +87,26 @@
     cursor: pointer;
     color: white;
 }
-#wrongAnswers {
+.wrongAnswers {
     background-color: red;
     color: white;
 }
-#rightAnswers {
+.rightAnswers {
     background-color: green;
     color: white;
 }
+#resultCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    height: 100vh;
+    color: chartreuse;
+
+}
+
