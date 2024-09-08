@@ -16,6 +16,10 @@ const submitBtn = async () => {
     try {
 
         console.log(inputField)
+        if(inputField.value.length < 3){
+            alert("Please enter a correct task")
+            return
+        }
         const userObj = {
             value: inputField.value
         }

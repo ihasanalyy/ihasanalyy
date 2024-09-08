@@ -1,6 +1,15 @@
+const idFound = localStorage.getItem("user")
+if(!idFound){
+    window.location.replace("./login.html")
+}
+
+
 import { collection, getDocs,db } from "./firebase.js"
+
 const globalCollection = collection(db, "usersInfo")
 const dynamicData = document.querySelector(".dynamicData")
+
+
 window.addEventListener("load", async () => {
     try {
         const querySnapshot = await getDocs(globalCollection);
