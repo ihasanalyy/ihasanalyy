@@ -22,7 +22,7 @@ I'm a passionate **Backend Developer** who loves creating amazing projects and l
 ---
 
 ## 📈 GitHub Stats
-![Your Username's GitHub stats](https://github-readme-stats.vercel.app/api?username=ihasanalyy&show_icons=true&theme=radical)
+![Watch my Stats](https://github-readme-stats.vercel.app/api?username=ihasanalyy&show_icons=true&theme=radical)
 
 ---
 
